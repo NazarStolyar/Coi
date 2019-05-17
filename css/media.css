@@ -14,6 +14,11 @@
     .block_for_form .wrapper_block_form .form_and_sucsses .sucsses_message .check {
         margin: 0px;
     }
+    .block_for_form .wrapper_block_form .form_and_sucsses {
+        width: 85%;
+        height: 85%;
+        padding: 25px;
+    }
 }
 @media only screen and (max-width : 1200px) {
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
@@ -29,9 +34,8 @@
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht {
         width: 100%;
     }
-    .block_for_form .wrapper_block_form .form_and_sucsses {
-        height: auto;
-    }
+
+
 
 }
 
@@ -45,7 +49,7 @@
     }
     .block_for_form .wrapper_block_form .form_and_sucsses {
         width: 100%;
-        height: 92%;
+        height: auto;
     }
     .top_block_for_logo_and_user {
         height: 8%;
@@ -175,6 +179,12 @@
     .block_for_form .wrapper_block_form .form_and_sucsses form {
         height: auto;
     }
+    .block_for_form .wrapper_block_form {
+        margin-top: 70px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses {
+        height: auto;
+    }
 
 
 
@@ -218,6 +228,9 @@
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form button {
         margin: 10px;
+    }
+    .global_wrapper {
+        height: auto;
     }
 
 }

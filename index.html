@@ -87,8 +87,8 @@
 									<label class="lable">Ім'я</label>
 								</div>
 								<div class="box-input">
-									<input type="number" name="number" required>
-									<label class="lable">Номер телефону</label>
+									<input type="tel" id="phone" name="number" required>
+									<label class="lable" >Номер телефону</label>
 								</div>
 								<div class="box-input">
 									<input type="email" name="email" required>
@@ -146,9 +146,9 @@
 									<input type="radio" name="activity">
 									<span>Виробництво</span>
 								</label>
-								<label>
+								<label class="other_choise">
 									<input type="radio" name="activity">
-									<span>Ваш варіант</span>
+									<input type="text" placeholder="Ваш варіант">
 								</label>
 
 							</div>
@@ -175,6 +175,7 @@
 </div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>

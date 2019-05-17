@@ -1,18 +1,18 @@
 $(document).ready(function() {
-    function heightDetect() {
-        $(".global_wrapper").css("height", $(window).height());
-    }
-    heightDetect();
-    $(window).resize(function() {
-        heightDetect();
-    });
+    // function heightDetect() {
+    //     $(".global_wrapper").css("height", $(window).height());
+    // }
+    // heightDetect();
+    // $(window).resize(function() {
+    //     heightDetect();
+    // });
 
     $.validator.addMethod("email", function(value, element) {
         return this.optional(element) || /^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$/i.test(value);
-    }, "<span><img src='img/wr.png' alt='Span'></span> Неправильний формат");
+    }, "<span><img src='img/wr.png' alt='span'></span> Неправильний формат");
 
     $.validator.addMethod("number", function(value, element) {
-        return this.optional(element) || /^\+?[3][-\(]?\d{4}\)?-?\d{3}-?\d{2}-?\d{2}$/i.test(value);
+        return this.optional(element) || /^+380\d{3}\d{2}\d{2}\d{2}$/i.test(value);
     }, "<span><img src='img/wr.png' alt='Span'></span> Неправильний формат");
 
 
@@ -70,14 +70,13 @@ $(document).ready(function() {
 
     $('.icon').on('click', function() {
         if($('.icon').hasClass('open')) {
-            console.log('111');
             $('.mob_menu').css('top','50px')
         } else {
             $('.mob_menu').css('top','-100%')
         }
     });
 
-
+    $("#phone").mask("+380 (99) 999-9999");
 
 
 

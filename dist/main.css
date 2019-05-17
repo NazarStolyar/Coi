@@ -22,6 +22,7 @@ body textarea:required:valid {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
   width: 100%; }
 
 .top_block_for_logo_and_user {
@@ -294,6 +295,8 @@ body textarea:required:valid {
           .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data input {
             width: 50%;
             height: 40px;
+            color: #333333;
+            font-size: 16px;
             border: 1px solid #DADCE0;
             -webkit-border-radius: 4px;
             border-radius: 4px;
@@ -352,6 +355,7 @@ body textarea:required:valid {
             .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:focus ~ .lable,
             .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:valid ~ .lable {
               top: 8px;
+              left: 10px;
               font-size: 10px;
               background-color: #FCFCFC; }
             .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input.error ~ .lable {
@@ -418,3 +422,16 @@ body textarea:required:valid {
 
 .mob_menu {
   display: none; }
+.other_choise {
+  width: 100%;
+  display: flex;
+}
+.other_choise input[type=text] {
+  border: 1px solid #DADCE0;
+  height: 36px;
+  border-radius: 5px;
+  color: #333333;
+  padding: 0px 20px !important;
+  margin: 0px 13px !important;
+  background: transparent;
+}
