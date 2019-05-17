@@ -169,6 +169,9 @@
     .mob_block {
         position: fixed;
     }
+    .block_for_form {
+        height: auto;
+    }
 
 
 
