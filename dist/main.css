@@ -196,7 +196,7 @@ body textarea:required:valid {
       background-color: #FCFCFC;
       -webkit-box-shadow: 0 10px 20px 0 rgba(76, 91, 96, 0.3);
       box-shadow: 0 10px 20px 0 rgba(76, 91, 96, 0.3);
-      padding: 10px 80px;
+      padding: 10px 55px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
