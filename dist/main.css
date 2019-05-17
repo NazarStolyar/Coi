@@ -186,7 +186,7 @@ body textarea:required:valid {
     display: flex; }
     .block_for_form .wrapper_block_form .form_and_sucsses {
       width: 70%;
-      height: 70%;
+      height: 75%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -196,7 +196,7 @@ body textarea:required:valid {
       background-color: #FCFCFC;
       -webkit-box-shadow: 0 10px 20px 0 rgba(76, 91, 96, 0.3);
       box-shadow: 0 10px 20px 0 rgba(76, 91, 96, 0.3);
-      padding: 50px 80px;
+      padding: 10px 80px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -221,8 +221,8 @@ body textarea:required:valid {
           -webkit-border-radius: 4px;
           border-radius: 4px;
           border: none;
-          width: 15%;
-          margin: 10px auto; }
+          width: 10%;
+          margin: 30px auto; }
         .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
           border-bottom: 1px solid #D7D7D7;
           padding: 30px;
