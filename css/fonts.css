@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('../font/AvenirNextCyr-Medium.eot');
+    src: local('Avenir Next Cyr Medium'), local('AvenirNextCyr-Medium'),
+    url('../font/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/AvenirNextCyr-Medium.woff') format('woff'),
+    url('../font/AvenirNextCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/Georgia.eot');
+    src: local('Georgia'),
+    url('../font/Georgia.eot?#iefix') format('embedded-opentype'),
+    url('../font/Georgia.woff') format('woff'),
+    url('../font/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url("../font/fa-light-300.eot");
+    src: url("../font/fa-light-300.eot?#iefix") format("embedded-opentype"), url("../font/fa-light-300.woff2") format("woff2"), url("../font/fa-light-300.woff") format("woff"), url("../font/fa-light-300.ttf") format("truetype"), url("../font/fa-light-300.svg#fontawesome") format("svg"); }
+
+.fal {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 300; }

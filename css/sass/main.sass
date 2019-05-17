@@ -1,0 +1,278 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: 'Open Sans', sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	background-color: #F6F5F4
+	padding: 0
+	margin: 0
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.global_wrapper
+	display: flex
+	width: 100%
+
+.top_block_for_logo_and_user
+	display: flex
+	width: 100%
+	height: 20%
+	.logo
+		display: flex
+		align-items: flex-end
+		padding: 0px 0px 0px 120px
+		p
+			color: #254E75
+			font-family: 'Georgia'
+			font-size: 32px
+			font-weight: normal
+			padding: 0px 0px 30px
+			cursor: pointer
+
+.menu_and_soc
+	width: 30%
+	height: 100%
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	.menu
+		padding: 0px 0px 0px 85px
+		nav
+			ul
+				.active
+					a
+						color: #2E6BA4
+				li
+					list-style-type: none
+					padding: 12px
+					a
+						font-family: 'Avenir Next Cyr'
+						letter-spacing: 0.75px
+						font-size: 18px
+						color: #333333
+						font-weight: 500
+						text-decoration: none
+						transition: all .5s ease
+						&:hover
+							color: #2E6BA4
+
+	.bottom_block_for_social
+		width: 100%
+		display: flex
+		height: 15%
+		justify-content: center
+		ul
+			display: flex
+			justify-content: space-between
+			margin: 0
+			padding: 0
+			li
+				list-style-type: none
+				padding: 0px 30px
+				a
+					color: #333333
+					font-size: 24px
+					transition: all .5s ease
+					&:hover
+						color: #2E6BA4
+
+.block_for_form
+	display: flex
+	width: 70%
+	height: 100%
+	flex-direction: column
+	.wrapper_user
+		width: 82%
+		display: flex
+		height: 100%
+		align-items: flex-end
+		justify-content: flex-end
+		.user
+			width: 20%
+			height: 100%
+			display: flex
+			align-items: center
+			justify-content: flex-end
+			p
+				color: #333333
+				font-family: 'Avenir Next Cyr'
+				font-size: 18px
+				font-weight: 500
+				letter-spacing: 0.75px
+				padding: 0px 15px
+				cursor: pointer
+				transition: all .5s ease
+				&:hover
+					color: #2E6BA4
+			img
+				width: 70px
+				cursor: pointer
+	.wrapper_block_form
+		width: 100%
+		height: 80%
+		display: flex
+		.form_and_sucsses
+			width: 70%
+			height: 70%
+			display: flex
+			border-radius: 4px
+			background-color: #FCFCFC
+			box-shadow: 0 10px 20px 0 rgba(76,91,96,0.3)
+			padding: 50px 80px
+			flex-direction: column
+			form
+				width: 100%
+				height: 100%
+				display: flex
+				flex-direction: column
+				button
+					background-color: #3897F0
+					padding: 10px 20px
+					color: white
+					border-radius: 4px
+					width: 15%
+					margin: 10px auto
+				.wrapper_item_for_form
+					border-bottom: 1px solid #D7D7D7
+					padding: 30px
+					display: flex
+					.item_block_left,
+					.item_block_rigtht
+						width: 50%
+					.item_form
+						display: flex
+						flex-direction: column
+						align-items: flex-start
+						justify-content: flex-start
+						input
+							margin: 16px 0px
+						input[type="radio"]:checked+span
+							color: #333333
+						p
+							font-size: 18px
+							font-weight: bold
+							color: #333333
+						span
+							color:  #979797
+							font-size: 16px
+							font-weight: 600
+							padding: 0px 0px 0px 10px
+						input[type='radio']:after
+							width: 15px
+							height: 15px
+							border-radius: 15px
+							top: -2px
+							left: -1px
+							position: relative
+							background-color: white
+							margin-right: 10px
+							content: ''
+							display: inline-block
+							visibility: visible
+							border: 2px solid #979797
+							cursor: pointer
+						input[type='radio']:checked:after
+							width: 11px
+							height: 11px
+							border-radius: 15px
+							top: -2px
+							left: -1px
+							position: relative
+							background-color: white
+							content: ''
+							display: inline-block
+							visibility: visible
+							border: 5px solid #3897F0
+					.form_data
+						input
+							width: 50%
+							height: 40px
+							border: 1px solid #DADCE0
+							border-radius: 4px
+							background: transparent
+							padding: 0px 10px
+							outline: none
+							&:focus
+								border: 1px solid #3F5662
+							&.error
+								border: 1px solid red
+							&::placeholder
+								font-size: 16px
+								color: #999999
+								padding: 0px 0px 0px 16px
+						label
+							&.error
+								color: red
+								font-size: 10px
+								display: flex
+							span
+								padding: 0px 5px
+								img
+									width: 15px
+						.box-input
+							position: relative
+							width: 100%
+							.lable
+								position: absolute
+								top: 27px
+								left: 0
+								transition: all .5s ease
+								font-size: 16px
+								color: #999999
+								pointer-events: none
+								padding: 0px 15px
+							input:focus ~ .lable,
+							input:valid ~ .lable
+								top: 8px
+								font-size: 10px
+								background-color: #FCFCFC
+							input
+								&.error ~ .lable
+									color: red
+
+			.sucsses_message
+				width: 100%
+				height: 100%
+				display: flex
+				align-items: center
+				justify-content: center
+				flex-direction: column
+				p
+					font-size: 20px
+					color: #333333
+					font-weight: bold
+					text-align: center
+					line-height: 2.2
+				.check
+					width: 70px
+					height: 70px
+					display: flex
+					align-items: center
+					justify-content: center
+					border: 1px solid #3897F0
+					border-radius: 50%
+					margin: 50px 0px
+					i
+						font-size: 42px
+						color: #3897F0
+				a
+					background-color: #3897F0
+					padding: 10px 40px
+					color: white
+					border-radius: 4px
+					margin: 60px 0px
+					text-decoration: none
+
+.mob_block
+	display: none
+.mob_menu
+	display: none

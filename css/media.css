@@ -1,0 +1,250 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input {
+        margin: 9px 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input .lable {
+        top: 18px
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:focus ~ .lable, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:valid ~ .lable {
+        top: 3px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses .sucsses_message .check {
+        margin: 0px;
+    }
+}
+@media only screen and (max-width : 1200px) {
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
+        padding: 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form button {
+        padding: 10px;
+        width: 20%;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
+        flex-direction: column;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht {
+        width: 100%;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses {
+        height: auto;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .menu_and_soc {
+        display: none;
+    }
+    .block_for_form {
+        width: 100%;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses {
+        width: 100%;
+        height: 92%;
+    }
+    .top_block_for_logo_and_user {
+        height: 8%;
+    }
+    .block_for_form .wrapper_user {
+        width: 100%;
+
+    }
+    .block_for_form .wrapper_user .user {
+        display: none;
+    }
+    .mob_block {
+        display: flex;
+        width: 100%;
+        height: 53px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+        z-index: 4;
+    }
+    .global_wrapper {
+        flex-direction: column;
+    }
+    .nav-icon-5{
+        width: 25px;
+        height: 20px;
+        margin: 10px 10px;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .nav-icon-5 span{
+        background-color:#254E75;
+        position: absolute;
+        border-radius: 2px;
+        transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+        width:100%;
+        height: 2px;
+        transition-duration: 500ms
+    }
+    .nav-icon-5 span:nth-child(1){
+        top:0px;
+        left: 0px;
+    }
+    .nav-icon-5 span:nth-child(2){
+        top:9px;
+        left: 0px;
+        opacity:1;
+    }
+    .nav-icon-5 span:nth-child(3){
+        bottom:0px;
+        left: 0px;
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(1){
+        transform: rotate(-3deg) scaleY(1.1);
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(2){
+        transform: rotate(3deg) scaleY(1.1);
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(3){
+        transform: rotate(-4deg) scaleY(1.1);
+    }
+    .nav-icon-5.open span:nth-child(1){
+        transform: rotate(45deg);
+        top: 13px;
+    }
+    .nav-icon-5.open span:nth-child(2){
+        opacity:0;
+    }
+    .nav-icon-5.open span:nth-child(3){
+        transform: rotate(-45deg);
+        top: 13px;
+    }
+    .mob_logo_and_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .mob_logo_and_menu p {
+        color: #254E75;
+        font-family: 'Georgia';
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .block_for_form .wrapper_block_form {
+        height: auto;
+    }
+    .mob_menu {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+        top: -100%;
+        background-color: #fff;
+        transition: all .5s ease;
+        align-items: center;
+        justify-content: center;
+    }
+    .mob_menu nav ul {
+        padding: 0px;
+    }
+    .mob_menu nav ul li {
+        list-style-type: none;
+        padding: 25px 0px;
+        text-align: center;
+
+    }
+    .mob_menu nav ul li a {
+        font-family: 'Avenir Next Cyr';
+        letter-spacing: 0.75px;
+        font-size: 18px;
+        color: #333333;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .mob_menu nav ul li.active a {
+        color: #2E6BA4
+    }
+    .mob_block {
+        position: fixed;
+    }
+
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .block_for_form .wrapper_block_form {
+        height: auto;
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses {
+        padding: 0px 25px;
+        height: auto;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data input {
+        width: 75%;
+    }
+    .item_block_left .item_form:nth-child(2) {
+        margin-top: 60px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input {
+        margin: 15px 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form button {
+        width: 35%;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input .lable {
+        top: 24px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:focus ~ .lable, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:valid ~ .lable {
+        top: 8px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form button {
+        margin: 10px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
