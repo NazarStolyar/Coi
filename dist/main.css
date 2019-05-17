@@ -132,7 +132,7 @@ body textarea:required:valid {
   -ms-flex-direction: column;
   flex-direction: column; }
   .block_for_form .wrapper_user {
-    width: 82%;
+    width: 73%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -185,7 +185,7 @@ body textarea:required:valid {
     display: -ms-flexbox;
     display: flex; }
     .block_for_form .wrapper_block_form .form_and_sucsses {
-      width: 70%;
+      width: 62%;
       height: 75%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -221,7 +221,7 @@ body textarea:required:valid {
           -webkit-border-radius: 4px;
           border-radius: 4px;
           border: none;
-          width: 10%;
+          width: 12%;
           margin: 30px auto; }
         .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
           border-bottom: 1px solid #D7D7D7;
