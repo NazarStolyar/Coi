@@ -172,6 +172,9 @@
     .block_for_form {
         height: auto;
     }
+    .block_for_form .wrapper_block_form .form_and_sucsses form {
+        height: auto;
+    }
 
 
 
