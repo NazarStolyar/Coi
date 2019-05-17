@@ -19,6 +19,12 @@
         height: 85%;
         padding: 25px;
     }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input[type='radio']:after {
+        top: -5px
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input[type='radio']:checked:after {
+        top: -5px
+    }
 }
 @media only screen and (max-width : 1200px) {
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
