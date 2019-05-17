@@ -9,11 +9,11 @@ $(document).ready(function() {
 
     $.validator.addMethod("email", function(value, element) {
         return this.optional(element) || /^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$/i.test(value);
-    }, "<span><img src='../img/Shape%20Copy%202.png' alt='Span'></span> Неправильний формат");
+    }, "<span><img src='img/wr.png' alt='Span'></span> Неправильний формат");
 
     $.validator.addMethod("number", function(value, element) {
         return this.optional(element) || /^\+?[3][-\(]?\d{4}\)?-?\d{3}-?\d{2}-?\d{2}$/i.test(value);
-    }, "<span><img src='../img/Shape%20Copy%202.png' alt='Span'></span> Неправильний формат");
+    }, "<span><img src='img/wr.png' alt='Span'></span> Неправильний формат");
 
 
 
@@ -35,13 +35,13 @@ $(document).ready(function() {
        },
         messages: {
             email: {
-                required: "<span><img src='../img/Shape%20Copy%202.png' alt='Span'></span>  Заповніть поле "
+                required: "<span><img src='img/wr.png' alt='Span'></span>  Заповніть поле "
             },
             number: {
-                required: "<span><img src='../img/Shape%20Copy%202.png' alt='Span'></span> Заповніть поле",
+                required: "<span><img src='img/wr.png' alt='Span'></span> Заповніть поле",
             },
             name: {
-                required: "<span><img src='../img/Shape%20Copy%202.png' alt='Span'></span> Ім’я має мати довжину від 6 до 30 символів"
+                required: "<span><img src='img/wr.png' alt='Span'></span> Ім’я має мати довжину від 6 до 30 символів"
             }
         },
         submitHandler: function() {
