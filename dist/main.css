@@ -69,7 +69,7 @@ body {
       color: #2E6BA4; }
     .menu_and_soc .menu nav ul li {
       list-style-type: none;
-      padding: 12px; }
+      padding: 12px 14px; }
       .menu_and_soc .menu nav ul li a {
         font-family: "Avenir Next Cyr";
         letter-spacing: 0.75px;
@@ -266,7 +266,7 @@ body {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               top: -2px;
-              left: -3px;
+              left: -1px;
               position: relative;
               background-color: white;
               margin-right: 10px;
@@ -281,7 +281,7 @@ body {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               top: -2px;
-              left: -3px;
+              left: -1px;
               position: relative;
               background-color: white;
               content: "";
@@ -430,7 +430,7 @@ body {
   border-radius: 5px;
   color: #333333;
   padding: 0px 20px !important;
-  margin: 0px 13px !important;
+  margin: 4px 13px !important;
   background: transparent;
 }
 .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left {
@@ -441,14 +441,20 @@ body {
   margin: 31px 0px 0px;
 }
 .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left .item_form:nth-child(2) input {
-  margin: 29px 0px 0px;
+  margin: 28px 0px 0px;
 }
 .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht {
   padding: 0px 0px 0px 14px;
 }
 .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht .item_form:nth-child(1) input {
-  margin: 0px 0px 26px;
+  margin: 0px 0px 27px;
 }
 .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data p {
   margin: 13px 0px 18px;
+}
+.block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht .item_form:nth-child(1) p {
+  margin: 16px 0px 14px;
+}
+.block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht .item_form:nth-child(2) p {
+  margin: 25px 0px 9px;
 }
