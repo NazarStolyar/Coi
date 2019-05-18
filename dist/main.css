@@ -47,7 +47,7 @@ body {
       font-family: "Georgia";
       font-size: 32px;
       font-weight: normal;
-      padding: 0px 0px 30px;
+      padding: 31px 0px 0px;
       letter-spacing: 1.1px;
       cursor: pointer; }
 
@@ -68,7 +68,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .menu_and_soc .menu {
-    padding: 0px 0px 9px 91px; }
+    padding: 0px 0px 9px 130px; }
     .menu_and_soc .menu nav ul .active a {
       color: #2E6BA4; }
     .menu_and_soc .menu nav ul li {
