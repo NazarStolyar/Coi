@@ -16,7 +16,6 @@
     }
     .block_for_form .wrapper_block_form .form_and_sucsses {
         width: 85%;
-        height: 85%;
         padding: 25px;
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input[type='radio']:after {
@@ -26,7 +25,22 @@
         top: -5px
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form button {
-        width: 12%;
+        margin: 15px auto 23px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left .item_form:nth-child(2) input {
+        margin: 9px 0px 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht .item_form:nth-child(1) input {
+        margin: 0px 0px 9px;
+    }
+    .number_workers {
+        margin: 31px 0px 18px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form {
+        padding: 0px 0px 36px;
+    }
+    .top_block_for_logo_and_user {
+        padding: 20px 0px;
     }
 }
 @media only screen and (max-width : 1200px) {
@@ -42,6 +56,18 @@
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht {
         width: 100%;
+    }
+    .block_for_form .wrapper_block_form {
+        padding: 38px 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left {
+        padding: 10px 0px 0px 14px;
+    }
+    .menu_and_soc .menu {
+        padding: 0px 0px 9px 0px;
+    }
+    .top_block_for_logo_and_user .logo {
+        padding: 0px 0px 0px 42px;
     }
 
 
@@ -199,6 +225,7 @@
 
 
 
+
 }
 
 /* Small Devices, Tablets */
@@ -210,11 +237,11 @@
 @media only screen and (max-width : 480px) {
     .block_for_form .wrapper_block_form {
         height: auto;
-        margin-top: 70px;
+        margin-top: 58px;
         margin-bottom: 25px;
     }
     .block_for_form .wrapper_block_form .form_and_sucsses {
-        padding: 0px 25px;
+        padding: 0px 5px;
         height: auto;
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data input {
@@ -223,14 +250,12 @@
     .item_block_left .item_form:nth-child(2) {
         margin-top: 60px;
     }
-    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input {
-        margin: 15px 0px;
-    }
+
     .block_for_form .wrapper_block_form .form_and_sucsses form button {
         width: 35%;
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input .lable {
-        top: 24px;
+        top: 25px;
     }
     .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:focus ~ .lable, .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .form_data .box-input input:valid ~ .lable {
         top: 8px;
@@ -241,6 +266,19 @@
     .global_wrapper {
         height: auto;
     }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form p {
+        font-size: 16px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_left .item_form:nth-child(2) input {
+        margin: 9px 0px 26px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_form input {
+        margin: 15px 0px;
+    }
+    .block_for_form .wrapper_block_form .form_and_sucsses form .wrapper_item_for_form .item_block_rigtht .item_form:nth-child(1) input {
+        margin: 0px 0px 26px;
+    }
+
 
 }
 
